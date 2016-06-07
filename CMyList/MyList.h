@@ -205,7 +205,7 @@ public:
 		return ConstListIterator(m_firstNode->prev, true);
 	}
 
-	void Insert(const ListIterator & it, T & data)
+	void Insert(const ListIterator & it, T data)
 	{
 		if (it == begin())
 		{
